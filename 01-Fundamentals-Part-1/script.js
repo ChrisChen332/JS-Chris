@@ -55,9 +55,17 @@
 // const inputYear = "1991";
 // console.log(Number(inputYear) + 18);
 
-const money = 0;
-if (money) {
-  console.log("not poor");
-} else {
-  console.log("poor");
-}
+// const money = 0;
+// if (money) {
+//   console.log("not poor");
+// } else {
+//   console.log("poor");
+// }
+
+const age = "18";
+
+if (age === 18) console.log("strict");
+if (age == 18) console.log("loose");
+const fav = Number(prompt("what is your favorite number"));
+console.log(fav);
+if (fav !== 18) console.log("wwdwd");
