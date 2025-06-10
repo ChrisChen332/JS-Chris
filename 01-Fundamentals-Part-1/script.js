@@ -62,10 +62,24 @@
 //   console.log("poor");
 // }
 
-const age = "18";
+// const age = "18";
 
-if (age === 18) console.log("strict");
-if (age == 18) console.log("loose");
-const fav = Number(prompt("what is your favorite number"));
-console.log(fav);
-if (fav !== 18) console.log("wwdwd");
+// if (age === 18) console.log("strict");
+// if (age == 18) console.log("loose");
+// const fav = Number(prompt("what is your favorite number"));
+// console.log(fav);
+// if (fav !== 18) console.log("wwdwd");
+
+// const day = "Monday";
+
+// switch (day) {
+//   case "Monday":
+//     console.log("Plan1");
+//   case "Tuesday":
+//     console.log("Plan2");
+// }
+
+const age = 23;
+// age >= 18 ? console.log("Drink") : console.log("no");
+const drink = age > 18 ? "wine" : "water";
+console.log(drink);
