@@ -79,7 +79,11 @@
 //     console.log("Plan2");
 // }
 
-const age = 23;
-// age >= 18 ? console.log("Drink") : console.log("no");
-const drink = age > 18 ? "wine" : "water";
-console.log(drink);
+// const age = 23;
+// // age >= 18 ? console.log("Drink") : console.log("no");
+// const drink = age > 18 ? "wine" : "water";
+// console.log(drink);
+
+const friends = ["chris"];
+friends.push("chen");
+console.log(friends);
