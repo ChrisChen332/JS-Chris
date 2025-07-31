@@ -103,3 +103,7 @@ function printGoals(...players) {
 game.odds.team1 < game.odds.team2 && console.log('Team1 More likely to win');
 game.odds.team2 < game.odds.team1 && console.log('Team2  More likely to win');
 console.log(alllplayers);
+
+const restaurant1 = {
+  order: function () {},
+};
