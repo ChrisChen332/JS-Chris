@@ -104,6 +104,11 @@ game.odds.team1 < game.odds.team2 && console.log('Team1 More likely to win');
 game.odds.team2 < game.odds.team1 && console.log('Team2  More likely to win');
 console.log(alllplayers);
 
-const restaurant1 = {
-  order: function () {},
-};
+for (const x of Object.entries(game.scored))
+  console.log(`Goal ${Number(x[0]) + 1}: ${x[1]}`);
+
+let scorers = {};
+
+for (const [i, el] of Object.entries(game.scored))
+  scorers[el] = (scorers[el] || 0) + 1;
+console.log(scorers);
